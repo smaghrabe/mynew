@@ -131,8 +131,9 @@ img{
 }
 
 #photo img{
+    padding: 0.1em;
     float: left;
-    border-radius: 20px;
+    border-radius: 10px;
     cursor: pointer;
 }
 
@@ -185,7 +186,7 @@ img{
 
 /* CIRCLE */
 .progress-circle {
-    font-size: 50px;
+    font-size: 40px;
     margin: 20px;
     position: relative; /* so that children can be absolutely positioned */
     padding: 0;
@@ -220,6 +221,13 @@ img{
     color: #53777A;
     z-index: 2;
 }
+
+.progress-circle h4{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
 .left-half-clipper { 
    /* a round circle */
    border-radius: 50%;
@@ -364,6 +372,7 @@ img{
 
 /* features*/
 #features{
+    margin-top: 20px;
     text-align: center;
     font-size:auto ;
     background-color: #000;
